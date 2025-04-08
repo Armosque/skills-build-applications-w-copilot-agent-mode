@@ -91,9 +91,9 @@ class WorkoutViewSet(viewsets.ModelViewSet):
 
 def api_root(request):
     return Response({
-        'users': '/api/users/',
-        'teams': '/api/teams/',
-        'activity': '/api/activity/',
-        'leaderboard': '/api/leaderboard/',
-        'workouts': '/api/workouts/'
+        'users': 'https://super-rotary-phone-p59x675vgwr37wr9-8000.app.github.dev/api/users/',
+        'teams': 'https://super-rotary-phone-p59x675vgwr37wr9-8000.app.github.dev/api/teams/',
+        'activity': 'https://super-rotary-phone-p59x675vgwr37wr9-8000.app.github.dev/api/activity/',
+        'leaderboard': 'https://super-rotary-phone-p59x675vgwr37wr9-8000.app.github.dev/api/leaderboard/',
+        'workouts': 'https://super-rotary-phone-p59x675vgwr37wr9-8000.app.github.dev/api/workouts/'
     })
